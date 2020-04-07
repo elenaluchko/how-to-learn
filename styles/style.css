@@ -2,7 +2,7 @@
 /*
 div, section {
   border: solid red 1px;
-} */
+}*/
 
 /* выберет все ссылки, по которым пользователь ещё не переходил */
 .link:not(:visited) {
@@ -100,14 +100,13 @@ div, section {
 .description {
   display: flex;
   justify-content: center;
-  padding: 100px 0 0;
-  /*padding-bottom: 100px;*/
 }
 
 .two-columns {
   width: 80%;
   display: flex;
   justify-content: space-between;
+  margin: 100px auto 100px auto;
 }
 
 .two-columns__brief {
@@ -145,13 +144,13 @@ div, section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0;
+  padding: 0 0 100px 0;
 }
 
 .section-title {
   display: inline-block;
   text-align: center;
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   width: 60%;
   font-size: 60px;
   line-height: 69px;
@@ -236,37 +235,23 @@ div, section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 90px 0 0;
+  padding: 90px 0 90px;
   position: relative;
   overflow: hidden;
 }
 
-.kaufman__title_theme_dark {
-  display: inline-block;
-  text-align: center;
-  line-height: 69px;
-  font-size: 60px;
-  font-weight: bold;
-  margin: 0 0 20px 0;
-  width: 60%;
+.section-title_theme_dark {
   color: white;
 }
 
-.kaufman__subtitle_theme_dark {
-  display: inline-block;
-  text-align: center;
-  margin: 0;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  width: 60%;
+.section-subtitle_theme_dark {
   color: white;
 }
 
 .table__cell_theme_dark {
   color: white;
   width: 200px;
-  margin: 80px 0 90px 0;
+  margin: 80px 0 0 0;
 }
 
 .kaufman__triangle {
@@ -280,8 +265,8 @@ div, section {
 }
 
 .footer {
-  max-height: 350px;
-  padding: 60px 0 40px;
+  min-height: 350px;
+  display: flex;
   background-color: #1f1f1f;
 }
 
@@ -289,21 +274,22 @@ div, section {
   display: flex;
   justify-content: space-between;
   width: 90%;
-  margin: auto;
+  margin: 60px auto 40px auto;
+  background-color: #1f1f1f;
 }
 
 .footer__column {
   padding: 0;
 }
 
-.footer__content_copyright {
+.footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   flex-basis: 711px;
   justify-content: space-between;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   background-image: url('../images/logo_white.svg');
 }
 
@@ -315,14 +301,8 @@ div, section {
   line-height: 25px;
 }
 
-.footer-link {
-  line-height: 30px;
-  font-size: 18px;
-  color: #f2f2f2;
-}
-
 .footer__column-heading {
-  margin: 0 auto 20px;
+  margin: 0;
   font-weight: bold;
   line-height: 30px;
   font-size: 18px;
@@ -330,12 +310,19 @@ div, section {
 }
 
 .footer__column-links {
-  margin-bottom: 18px;
-  font-weight: normal;
+  margin: 20px 0 16px 0;
+  list-style: none;
   display: flex;
   flex-direction: column;
+  padding: 0;
+}
+
+.footer__column-link {
   list-style: none;
-  padding: 0%;
+  font-weight: normal;
+  line-height: 30px;
+  font-size: 18px;
+  color: #f2f2f2;
 }
 
 .footer__social-icon {
