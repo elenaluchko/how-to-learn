@@ -326,6 +326,7 @@ div, section {
 }
 
 .footer__social-icon {
-  size: 16px;
+  height: 16px;
+  width: 16px;
   margin-right: 10px;
 }
