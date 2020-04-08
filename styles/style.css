@@ -4,17 +4,6 @@ div, section {
   border: solid red 1px;
 }*/
 
-/* выберет все ссылки, по которым пользователь ещё не переходил */
-.link:not(:visited) {
-  text-decoration: none;
-}
-
-/* ссылка, на которую пользователь навёл курсор, сменит цвет на синий */
-.link:hover {
-  color: #2f80ed;
-  text-decoration: underline;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -73,6 +62,15 @@ div, section {
 
 .header__link {
   color: #2f80ed;
+}
+
+.header__link:not(:visited) {
+  text-decoration: none;
+}
+
+.header__link:hover {
+  color: #2f80ed;
+  text-decoration: underline;
 }
 
 .header__main-illustration {
@@ -230,6 +228,15 @@ div, section {
   color: black;
 }
 
+.feinman__link:not(:visited) {
+  text-decoration: none;
+}
+
+.feinman__link:hover {
+  color: #2f80ed;
+  text-decoration: underline;
+}
+
 .kaufman {
   background-color: #1f1f1f;
   display: flex;
@@ -323,6 +330,15 @@ div, section {
   line-height: 30px;
   font-size: 18px;
   color: #f2f2f2;
+}
+
+.footer__column-link:not(:visited) {
+  text-decoration: none;
+}
+
+.footer__column-link:hover {
+  color: #2f80ed;
+  text-decoration: underline;
 }
 
 .footer__social-icon {
