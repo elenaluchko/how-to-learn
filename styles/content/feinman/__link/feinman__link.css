@@ -1,0 +1,17 @@
+.feinman__link {
+  line-height: 51px;
+  font-size: 36px;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  color: black;
+}
+
+.feinman__link:not(:visited) {
+  text-decoration: none;
+}
+
+.feinman__link:hover {
+  color: #2f80ed;
+  text-decoration: underline;
+}
