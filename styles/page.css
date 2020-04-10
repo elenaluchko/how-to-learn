@@ -1,6 +1,22 @@
-@import url(./header/header.css);
+@import url(./cards/cards.css);
 @import url(./content/content.css);
+@import url(./description/description.css);
+@import url(./digits/digits.css);
+@import url(./feinman/feinman.css);
 @import url(./footer/footer.css);
+@import url(./header/header.css);
+@import url(./kaufman/kaufman.css);
+@import url(./khan/khan.css);
+@import url(./logo/logo.css);
+@import url(./oakley/oakley.css);
+@import url(./resources/resources.css);
+@import url(./rotation/rotation.css);
+@import url(./section-subtitle/section-subtitle.css);
+@import url(./section-title/section-title.css);
+@import url(./table/table.css);
+@import url(./techniques/techniques.css);
+@import url(./two-columns/two-columns.css);
+@import url(./video/video.css);
 
 
 .page {
